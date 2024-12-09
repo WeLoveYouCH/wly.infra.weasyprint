@@ -6,3 +6,5 @@ services:
     image: 4teamwork/weasyprint:latest
     ports:
       - 3000:8080
+    environment:
+      WEASYPRINT_ALLOWED_URLS_PATTERN: '^https:\/\/fonts\.googleapis\.com.*|^https:\/\/fonts\.gstatic\.com.*'
