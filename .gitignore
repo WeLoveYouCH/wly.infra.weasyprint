@@ -2,4 +2,5 @@
 /include/
 /pyvenv.cfg
 /venv/
+/.idea
 __pycache__
