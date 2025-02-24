@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     image: 4teamwork/weasyprint:latest
     container_name: weasyprint
+    restart: always
     ports:
       - "5001:8080"
     environment:
